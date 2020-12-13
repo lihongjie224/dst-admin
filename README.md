@@ -12,7 +12,7 @@
 8.  支持上传本地存档
 
 ## 环境要求
-1.  系统需**Ubuntu** 16.04 64位或32位（已测试，其他版本Ubuntu未测试,其他发行版Linux的搭建可以加群交流）
+1.  系统需**Ubuntu** （16.04,18.04已测试，其他版本Ubuntu未测试,其他发行版Linux的搭建可以加群交流）
 2.  Java环境需要**JDK 1.8**
 
 ## 注意事项
@@ -31,7 +31,13 @@ sudo apt-get install -y openjdk-8-jdk
 java -version
 显示 "openjdk version "1.8.0_252"就表示安装完成
 ```      
-###  下载最新版dst-admin安装包(下载较慢，可以加群下载上传到服务器)
+###  下载最新版dst-admin安装包
+
+```bash
+wget http://clouddn.tugos.cn/release/dst-admin-1.0.5.jar -O dst-admin.jar
+```
+
+或者
 
 ```bash
 curl -L https://github.com/qinming99/dst-admin/releases/download/v1.0.5/dst-admin-1.0.5.jar --output dst-admin.jar
